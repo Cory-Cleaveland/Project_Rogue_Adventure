@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace Project_Rogue_Adventure
 {
-    class Enemy_Boss
+    public class Enemy_Boss
     {
+        public double health;
+
+        Enemy_Boss()
+        {
+            this.health = 100.0;
+        }
+
+        ~Enemy_Boss()
+        {
+
+        }
     }
 }
